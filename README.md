@@ -25,7 +25,7 @@ To execute the full code, the following input files are required (available to r
 These files can be generated from raw Pleiades stereo imagery, Sentinel-1A SLC images, or requested from the corresponding author (alizadehzahra@email.kntu.ac.ir).
 
 ### Execution and Output
-The full source code and input datasets are stored in a private, password-protected repository on Zenodo with the DOI: 10.5281/zenodo.15616826. Access is restricted until the article is published. Request access and password from the first author (alizadehzahra@email.kntu.ac.ir) during review. Post-acceptance, data will be made public.
+The full source code and input datasets are stored in a private, password-protected repository on Zenodo with the DOI:10.5281/zenodo.15616826. Access is restricted until the article is published. Request access and password from the first author (alizadehzahra@email.kntu.ac.ir) during review. Post-acceptance, data will be made public.
 
 ## Contributors
 - Zahra Alizadeh Zakaria (K.N. Toosi University of Technology, alizadehzahra@email.kntu.ac.ir)
