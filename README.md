@@ -17,7 +17,7 @@ This repository contains the source code for a novel GCP-free methodology to ret
    python 3d_los.py
    ```
    - Input files must be provided or requested.
-   - Outputs are saved in `outputs/section_1`.
+   - Outputs are saved in `outputs/section_1 to section_4`.
 
 ## Required Inputs
 To execute the code, the following input files are required in the working directory:
@@ -29,18 +29,6 @@ To execute the code, the following input files are required in the working direc
 - `smoothed_vertical_deformation.tif`: Vertical displacement from Pleiades.
 - `Map_a.tif`: Background map for visualization.
 These files can be generated from raw Pleiades stereo imagery, Sentinel-1A SLC images, or requested from the first author (alizadehzahra@email.kntu.ac.ir).
-
-## Next Steps
-### Stage 2: Testing and Optimization
-1. **Prepare Outputs:**
-   - Ensure `outputs/section_1`, `section_3`, and `section_4` directories exist:
-     ```bash
-     mkdir -p outputs/section_{1,3,4}
-     ```
-   - Run the script to generate intermediate files (e.g., `.npy` files) in `outputs/section_1`:
-     ```bash
-     python3 3d_los.py
-     ```
 
 ## Data Availability
 The input datasets (e.g., Pleiades stereo imagery from 25 September 2021 and 28 July 2022, Sentinel-1A SLC images from September 2021–August 2022) are large-volume and not included due to size constraints. Users should provide these with specifications:
