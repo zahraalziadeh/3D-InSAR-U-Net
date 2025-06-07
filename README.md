@@ -26,23 +26,16 @@ To execute the full code, the following input files are required (available to r
 - `Map_a.tif`: Background map for visualization.
 These files can be generated from raw Pleiades stereo imagery, Sentinel-1A SLC images, or requested from the corresponding author (alizadehzahra@email.kntu.ac.ir).
 
-## Next Steps
-### Stage 2: Testing and Optimization
-1. **Prepare Outputs:**
-   - Sample outputs are provided in `outputs/section_4`.
-   - Full execution requires private code access; contact the first author for review purposes.
+### Execution and Output
+The full source code and input datasets are stored in a private, password-protected repository on Zenodo with the DOI: 10.5281/zenodo.15616826. Access is restricted until the article is published. Request access and password from the first author (alizadehzahra@email.kntu.ac.ir) during review. Post-acceptance, data will be made public.
 
-2. **Optimize and Validate:**
-   - Reviewers can request intermediate files (e.g., `.npy` files) generated during execution.
+## Contributors
+- Zahra Alizadeh Zakaria (K.N. Toosi University of Technology, alizadehzahra@email.kntu.ac.ir)
+- Farshid Farnood Ahmadi (University of Tabriz, farnood@tabrizu.ac.ir)
+- Hamid Ebadi (K.N. Toosi University of Technology, ebadi@email.kntu.ac.ir)
 
-### Stage 3: Final Execution and Output
-1. **Run Final Script:**
-   - Full script execution is restricted to reviewers with private access.
-   - Contact alizadehzahra@email.kntu.ac.ir for temporary access during review.
-
-2. **Upload to GitHub:**
-   - Current repository contains only sample outputs and a simplified workflow.
-   - Full code and datasets will be made public upon article acceptance.
+## License
+GNU General Public License v3.0. See [LICENSE](LICENSE) for details.
 
 ## Data Availability
 The input datasets (e.g., Pleiades stereo imagery from 25 September 2021 and 28 July 2022, Sentinel-1A SLC images from September 2021–August 2022) are large-volume and not included due to size constraints. Sample outputs are provided, but full datasets are available to reviewers upon request with specifications:
@@ -50,11 +43,5 @@ The input datasets (e.g., Pleiades stereo imagery from 25 September 2021 and 28 
 - **Sentinel-1A SLC Images:** IW mode, descending orbit, incidence angle 35° ± 0.5°, azimuth angle 190° ± 0.5°, 17 scenes (Sep 2021–Aug 2022).
 - **Geological Constraints:** Slope, Terrain Ruggedness Index (TRI) from Pleiades DEMs, fault trace from Stanford dataset.
 Request datasets from the corresponding author (alizadehzahra@eail.kntu.ac.ir) during review. Post-acceptance, key data will be public.
-
-## Contributors
-- Zahra Alizadeh Zakaria (K.N. Toosi University of Technology, alizadehzahra@email.kntu.ac.ir)
-- Farshid Farnood Ahmadi (University of Tabriz, farnood@tabrizu.ac.ir)
-- Hamid Ebadi (K.N. Toosi University of Technology,ebadi@kntu.ac.ir)
-
 ## License
 GNU General Public License v3.0. See [LICENSE](LICENSE) for details.
