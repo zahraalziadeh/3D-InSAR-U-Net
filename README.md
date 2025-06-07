@@ -12,8 +12,6 @@ This repository contains the source code and outputs for a novel GCP-free method
    ```bash
    export OUTPUT_DIR=/path/to/your/outputs
    ```
-3. Access sample outputs (e.g., `dx_pred_final.tif`) in `outputs/section_4`.
-   - Full code execution requires private access, available to reviewers upon request.
 
 ## Required Inputs
 To execute the full code, the following input files are required (available to reviewers upon request):
