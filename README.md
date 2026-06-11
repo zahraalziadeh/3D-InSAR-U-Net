@@ -16,7 +16,7 @@ The proposed workflow integrates:
 
 The Denali Fault, Alaska, serves as a case study for demonstrating the transferability of the proposed framework.
 
-Within a ~20 × 20 km stereo-imaged anchor region, relative east (E), north (N), and vertical (U) displacement components are reconstructed through the integration of optical, radar, and geodetic observations. The resulting 3D deformation information is subsequently transferred to a broader ~70 × 70 km regional domain using a physics-informed deep-learning framework constrained by InSAR observations and terrain attributes.
+Within an approximately 130 km² stereo-constrained anchor region, relative east (E), north (N), and vertical (U) displacement components are reconstructed through the integration of optical, radar, and geodetic observations. The resulting 3D deformation information is subsequently transferred to a broader ~70 × 70 km regional domain using a physics-informed deep-learning framework constrained by InSAR observations and terrain attributes.
 
 The framework enables spatially continuous regional 3D deformation mapping in areas where only single-geometry InSAR observations are available, while providing uncertainty estimates through probabilistic inference and geodetic covariance propagation.
 
