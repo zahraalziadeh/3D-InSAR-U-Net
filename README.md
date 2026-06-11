@@ -1,45 +1,28 @@
-# 3D Crustal Displacement Retrieval near Denali Fault
+# Regional 3D Surface Deformation Inference from Single-Geometry InSAR
 
 ## Overview
-This repository implements a physics-informed, GCP-free framework for reconstructing relative three-dimensional (3D) ground deformation from single-geometry InSAR observations.
 
-The workflow is demonstrated over a ~70 × 70 km segment of the Denali Fault, Alaska, and integrates:
+This repository implements a physics-informed, GCP-free framework for regional three-dimensional (3D) surface deformation inference from single-geometry InSAR observations.
 
-Sentinel-1 LOS InSAR measurements
+The proposed workflow integrates:
 
-Very-high-resolution (50 cm) Pleiades stereo imagery
+- Sentinel-1 LOS InSAR measurements
+- Very-high-resolution (50 cm) Pleiades stereo imagery
+- DEM differencing and COSI-Corr optical correlation
+- Persistent Scatterer InSAR observations as virtual geodetic constraints
+- A physics-informed U-Net model for 3D deformation prior generation
+- Geodetic least-squares adjustment for physical consistency
+- Monte Carlo dropout and posterior covariance analysis for uncertainty quantification
 
-DEM differencing and COSI-Corr optical correlation
+The Denali Fault, Alaska, serves as a case study for demonstrating the transferability of the proposed framework.
 
-Persistent Scatterer InSAR products as virtual geodetic constraints
+Within a ~20 × 20 km stereo-imaged anchor region, relative east (E), north (N), and vertical (U) displacement components are reconstructed through the integration of optical, radar, and geodetic observations. The resulting 3D deformation information is subsequently transferred to a broader ~70 × 70 km regional domain using a physics-informed deep-learning framework constrained by InSAR observations and terrain attributes.
 
-A physics-informed U-Net model for patch-based 3D deformation prior generation
+The framework enables spatially continuous regional 3D deformation mapping in areas where only single-geometry InSAR observations are available, while providing uncertainty estimates through probabilistic inference and geodetic covariance propagation.
 
-Least-squares geodetic adjustment for physical consistency
+Independent validation against GNSS observations demonstrates agreement at sub-centimeter to centimeter levels, depending on displacement component and spatial validation scenario.
 
-Monte Carlo dropout and posterior covariance analysis for uncertainty quantification
-
-Within a ~20 × 20 km stereo-imaged anchor region, relative east (E), north (N), and vertical (U) displacement components are inferred through cross-sensor fusion. The framework is subsequently scaled to the broader domain using a deep-learning–derived 3D deformation prior constrained by InSAR observations and terrain features.
-
-Across the full study region, reconstructed displacement gradients exhibit ranges of approximately:
-
-−30 to +30 mm (E–W)
-
-−40 to +40 mm (N–S)
-
-−40 to +40 mm (Vertical)
-
-Independent evaluation against peripheral GNSS observations in the IGS14/NNR reference frame yields average RMSE values of:
-
-~7.1 mm (East)
-
-~25.0 mm (North)
-
-~9.8 mm (Vertical)
-
-The larger uncertainty in the north–south component reflects the geometric sensitivity limitations of near-polar Sentinel-1 orbits.
-
-The repository includes preprocessing scripts, model architecture definitions, training workflows, uncertainty estimation modules, and validation routines necessary to reproduce the reported results.
+The repository includes preprocessing scripts, model architecture definitions, training workflows, uncertainty estimation modules, geodetic fusion procedures, and validation routines necessary to reproduce the reported results.
 
 ## Usage
 1. Install dependencies:
