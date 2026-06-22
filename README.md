@@ -83,7 +83,7 @@ These products can be generated from raw Sentinel-1 and Pleiades observations fo
 
 The source code and supporting datasets have been archived on Zenodo:
 
-DOI: 10.5281/zenodo.15616826
+DOI: https://doi.org/10.5281/zenodo.15616826
 
 During peer review, repository access is restricted. Editors and reviewers may obtain access upon request.
 
