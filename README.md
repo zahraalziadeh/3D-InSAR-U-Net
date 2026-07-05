@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15616826.svg)](https://doi.org/10.5281/zenodo.15616826)
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Python](https://img.shields.io/badge/Python-3.8-blue)
 
 ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
 # Regional 3D Surface Deformation Inference from Single-Geometry InSAR
