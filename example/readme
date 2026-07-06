@@ -1,0 +1,29 @@
+# Example
+
+This folder provides a minimal example for running the software.
+
+## Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+## Required Data
+
+Download the processed datasets from the Zenodo archive:
+
+https://doi.org/10.5281/zenodo.15616826
+
+Place the required input files in the project directory.
+
+## Run
+
+```bash
+python 3d_los.py
+```
+
+For validation:
+
+```bash
+jupyter notebook validation_gnss.ipynb
+```
